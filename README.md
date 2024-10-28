@@ -20,16 +20,14 @@ This repository contains a robust bash script designed for wireless network pene
   - `iw`
   - `aircrack-ng`
 
-## Install packages using:
 
+### Installation
+- Install packages & clone this repository to your OpenWrt device:
 - opkg update && opkg install airmon-ng iw aircrack-ng
-- Installation
--Clone this repository to your OpenWrt device:
 - git clone https://github.com/nulloneinfo/Wireless-Network-Pentest-Script-for-OpenWrt.git
 - cd Wireless-Network-Pentest-Script-for-OpenWrt
-
-- Make the script executable:
 - chmod +x Wifi-Wrt.sh
+  
 ## Usage
 - Run the Script:
 - ./Wifi-Wrt.sh
